@@ -16,7 +16,7 @@ A growing collection of fast, focused developer utilities. No bloat, no accounts
 
 | Tool | Description | Status |
 |------|-------------|--------|
-| [Cron Vision](https://404tools.dev/cron) | Visualize any cron expression — heatmap, next runs, plain English | ✅ Live |
+| [Cron Vision](https://404tools.dev/cronvis) | Visualize any cron expression — next runs, plain English | ✅ Live |
 | Regex Tester | Test and explain regular expressions in plain English | 🚧 Coming soon |
 | JWT Decoder | Decode and inspect JWT tokens instantly | 🚧 Coming soon |
 | JSON Formatter | Format, validate and diff JSON | 🚧 Coming soon |
@@ -36,47 +36,7 @@ A growing collection of fast, focused developer utilities. No bloat, no accounts
 
 ## Tech stack
 
-- **Framework** — Next.js / React
-- **Styling** — Tailwind CSS
-- **Deployment** — Vercel
 - **Domain** — 404tools.dev
-
----
-
-## Running locally
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/404tools.dev.git
-cd 404tools.dev
-
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## Project structure
-
-```
-404tools.dev/
-├── app/
-│   ├── page.tsx          # Homepage
-│   ├── cron/
-│   │   └── page.tsx      # Cron Vision tool
-│   └── layout.tsx
-├── components/
-│   ├── Navbar.tsx
-│   ├── ToolCard.tsx
-│   └── Footer.tsx
-├── public/
-└── README.md
-```
 
 ---
 
